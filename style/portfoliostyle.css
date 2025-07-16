@@ -1,0 +1,248 @@
+* {
+  scroll-behavior: smooth;
+}
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+main section {
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+/* shared style */
+.text-primary {
+  color: #fd6e0a;
+}
+.dark-2 {
+  color: #474747;
+}
+.btn-primary {
+  background-color: #fd6e0a;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 35px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+/* .btn-primary:hover {
+  background-color: #d85a00;
+  transition: .02s;
+} */
+.section_title {
+  font-size: 35px;
+  font-weight: bold;
+  color: rgb(20, 20, 20);
+}
+.secction_description {
+  font-size: 18px;
+  color: #757575;
+}
+.secondary-bg {
+  /* background-color: #f8f8f8; */
+  background-color: #feec5f;
+}
+.text-center {
+  text-align: center;
+}
+/* shared style */
+
+/* header style */
+.header {
+  background-image: url("../img/developer.png"), url("../img/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: top left 20px, bottom right;
+
+  /* background-size: contain; */
+}
+/* nav style */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 200px;
+}
+
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 51px;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+/* banner style */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px 0 200px;
+}
+.banner-con {
+  max-width: 585px;
+  /* height: 536px;
+    background-color: aquamarine; */
+}
+.banner_gritting {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.banner_title {
+  font-size: 85px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.banner_image {
+  width: 580px;
+}
+
+/* about style */
+.about {
+  border-radius: 10px;
+  padding: 130px 150px;
+
+  text-align: center;
+}
+.about-items {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+  margin-left: 22px;
+  margin-right: 22px;
+}
+.about-item {
+  font-weight: 600;
+}
+.item-title {
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+.item-description {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+/*skills style */
+.skills-items {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  gap: 24px;
+}
+.skill-item {
+  height: 307px;
+  width: 267px;
+  /* background-color: rgb(232, 255, 247); */
+  /* margin-right: 24px; */
+  padding: 30px;
+  box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+}
+.skill-title {
+  margin-top: 30px;
+}
+
+/*resume style */
+.resume-container {
+  display: flex;
+  /* background-color: aqua; */
+  gap: 24px;
+  /* justify-content: space-between; */
+}
+.resume-column-title {
+  font-size: 30px;
+}
+.experience {
+  width: 510px;
+  height: 177px;
+}
+.experience-title {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.experience-subtitle {
+  font-size: 20px;
+  color: #757575;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.experience-description {
+  color: #757575;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+hr {
+  margin: 10px 0;
+}
+
+.resume-btn button {
+  margin-top: 50px;
+}
+
+/* footer style */
+.footer {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  padding: 130px 230px;
+  margin-bottom: 20px;
+}
+.footer-column p {
+  height: 56px;
+  width: 560px;
+  /* width: 50%; */
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form input {
+  margin-bottom: 24px;
+  height: 64px;
+  width: 460px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+.form textarea {
+  margin-bottom: 20px;
+  width: 460px;
+  height: 180px;
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.footer-btn {
+  width: 150px;
+  height: 64px;
+}
+
+.foot .Copyright {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 18px;
+  color: #757575;
+}
